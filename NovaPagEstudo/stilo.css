@@ -1,0 +1,26 @@
+html{
+    font-size: medium;
+    font-family: 'Fuggles', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Linear B', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#divSec1{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+
+    display: table;
+}
+
+#poema{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin:1;
+
+    display: table;
+}
+
+
+

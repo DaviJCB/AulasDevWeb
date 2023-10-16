@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+}
+
+/* comentario */
+
+.wrapper > div{
+    flex: 1;
+}
+
+.wrapper2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+
+}
+
+.positioned{
+    position: fixed;
+    background: rgba(255,84,104,.3);
+    border: 2px solid rgb(255,84,104);
+    top: 30px;
+    left: 30px;
+}
+
+body{
+    width: 500px;
+    margin: 0 auto;
+}
+
+p {
+    background-color: rgb(207,232,220);
+    border: 2px solid rgb(79,185,227);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+    

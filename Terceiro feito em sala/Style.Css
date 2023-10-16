@@ -1,0 +1,46 @@
+html{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size: 90px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+#div1{
+    min-height: 6em;
+    color: violet;
+}
+
+.primeiraclasse {
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.segundaclasse{
+    font-size: 20px;
+    width: 50%; 
+    height: 100px;
+}
+
+
+p {
+    color: rgba(0, 0, 0, 0.767);
+    border: 50px rgb(0, 57, 0)
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    border: 3px black;
+    border-style: dashed;
+}

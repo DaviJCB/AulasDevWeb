@@ -1,0 +1,29 @@
+h2{
+    font-size:larger;
+    margin-bottom: 0;
+}
+
+#div1{
+    min-height: 2emm;
+    background-color: aquamarine;
+    border-color:black;
+    border-top-width: 3px;
+}
+
+
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Linear B', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: serif;
+}
+
+#colobrinho{
+    font-weight: bold;
+    color:rgb(243, 0, 0);
+    background-color: aqua;
+}
