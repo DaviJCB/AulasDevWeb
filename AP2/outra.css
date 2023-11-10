@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url('img.jpg');
+}
+
+.carregando{
+    text-align: center;
+    color :rgb(255, 255, 255);
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1000x;
+    height: 1000px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+h3 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+#Carregando {
+    visibility: hidden;
+    color: #777;
+}
+
+p {
+    color: #555;
+}
