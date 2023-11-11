@@ -10,7 +10,8 @@ body.style.flexWrap = 'wrap';
 
 const cria_cartao = (entrada) => { 
 
-    const container_atleta = document.createElement('article');  
+    const container_atleta = document.createElement('article');
+    container_atleta.style.visibility = 'hidden'  
     
     container_atleta.dataset.id = entrada.id;
     container_atleta.dataset.altura = entrada.altura;
