@@ -21,6 +21,7 @@ async function fetchData() {
     const atleta_id = document.getElementById('id').innerHTML = params.get('id');
     const img = document.getElementById('imagem').src = infos.imagem;
     const descricao= document.getElementById('descricao').innerHTML = infos.descricao;
+    const mome = document.getElementById('nome').innerHTML = infos.nome;
   
 
   } catch (error) {
