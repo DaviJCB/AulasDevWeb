@@ -10,8 +10,7 @@ body.style.flexWrap = 'wrap';
 
 const cria_cartao = (entrada) => { 
 
-    const container_atleta = document.createElement('article');
-    container_atleta.style.visibility = 'hidden'  
+    const container_atleta = document.createElement('article');  
     
     container_atleta.dataset.id = entrada.id;
     container_atleta.dataset.altura = entrada.altura;
@@ -85,10 +84,3 @@ pega_json(`${url}/all`)
     }});
 
 console.log('síncrono');
-
-
-
-
-
-
-
